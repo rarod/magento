@@ -1,0 +1,1 @@
+/var/www/html/magento/vendor/magento/module-inventory-admin-ui/view/adminhtml/web/js/stock/grid/cell/assigned-sources.js
