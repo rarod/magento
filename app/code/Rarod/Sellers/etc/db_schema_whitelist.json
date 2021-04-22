@@ -1,0 +1,15 @@
+{
+    "rarod_sellers": {
+        "column": {
+            "id": true,
+            "name": true,
+            "website_id": true,
+            "active": true,
+            "phone": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "RAROD_SELLERS_WEBSITE_ID_STORE_WEBSITE_WEBSITE_ID": true
+        }
+    }
+}

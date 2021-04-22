@@ -1,0 +1,17 @@
+<!--
+ @category    Vendedores
+ @package     Rarod_Sellers
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Rarod_Sellers::sellers" title="Vendedores" sortOrder="100">
+                    <resource id="Rarod_Sellers::sellers_index" title="Vendedores" sortOrder="100"/>
+                    <resource id="Rarod_Sellers::sellers_stock" title="Estoques" sortOrder="100"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+
+</config>

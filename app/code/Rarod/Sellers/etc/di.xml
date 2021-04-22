@@ -1,0 +1,26 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="rarod_sellers_seller_listing_data_source" xsi:type="string">
+                    Rarod\Sellers\Model\Resource\Seller\Grid\Collection
+                </item>
+            </argument>
+        </arguments>
+    </type>
+    <virtualType name="Rarod\Sellers\Model\Resource\Seller\Grid\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">rarod_sellers</argument>
+            <argument name="resourceModel" xsi:type="string">Rarod\Sellers\Model\Resource\Seller</argument>
+        </arguments>
+    </virtualType>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="rarod_sellers_stock_listing_data_source" xsi:type="string">
+                    Rarod\Sellers\Model\Resource\Stock\Grid\Collection
+                </item>
+            </argument>
+        </arguments>
+    </type>
+</config>
