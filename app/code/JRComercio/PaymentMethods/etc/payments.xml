@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<payment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Payment:etc/payment.xsd">
+    <groups>
+        <group id="jrcomercio">
+            <label>JRComercio</label>
+        </group>
+    </groups>
+    <methods>
+        <method name="payment_23">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_24">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_27">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_30">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_31">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_35">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_39">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_50">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_58">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_93">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_111">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_133">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_150">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_247">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_299">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_311">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_320">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_321">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_322">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_323">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_324">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_325">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_349">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_373">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_374">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_382">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_390">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_415">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_427">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_433">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_444">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_447">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_451">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_453">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_475">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_476">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_479">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_480">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_487">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_488">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_507">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_512">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_529">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_535">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_537">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_538">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_539">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_540">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_541">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="payment_542">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+    </methods>
+</payment>

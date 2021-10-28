@@ -1,0 +1,107 @@
+.footer-line {
+    width: 70%;
+    height: 2px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.footer {
+    .footer-middle {
+        background: #fff;
+
+        .container {
+            .row {
+                .footer-links {
+                    @media @mobile {
+                        margin-bottom: 20px;
+                    }
+
+                    h4 {
+                        color: #222529;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                    }
+
+                    ul {
+                        li {
+                            a {
+                                font-size: 0.9375rem;
+                                font-weight: 400;
+                                line-height: 1.35;
+                                letter-spacing: -0.01em;
+                                margin-bottom: 0.45rem;
+                                white-space: nowrap;
+                                color: #94999e;
+                                transition: 0.3s;
+
+                                &:hover,
+                                &:focus {
+                                    color: @lightBlue;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .footer-logo {
+                    figure {
+                        max-width: 60%;
+                        margin-left: 12%;
+                        margin-top: 5%;
+
+                        @media @mobile {
+                            display: none;
+                        }
+                    }
+                }
+
+                .footer-company {
+                    @media @mobile {
+                        margin-top: 20px;
+                    }
+
+                    h4 {
+                        color: #222529;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                    }
+
+                    p {
+                        margin-bottom: 0;
+                        font-size: 0.9375rem;
+                        font-weight: 400;
+                        line-height: 1.35;
+                        letter-spacing: -0.01em;
+                        white-space: nowrap;
+                        color: #94999e;
+                    }
+
+                    a {
+                        font-size: 0.9375rem;
+                        font-weight: 400;
+                        line-height: 1.35;
+                        letter-spacing: -0.01em;
+                        white-space: nowrap;
+                        color: #94999e;
+                        transition: 0.3s;
+
+                        &:hover,
+                        &:focus {
+                            color: @lightBlue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        background: #fff;
+        color: #222529;
+
+        p {
+            color: #222529;
+        }
+    }
+}

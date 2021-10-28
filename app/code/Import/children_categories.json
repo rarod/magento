@@ -1,0 +1,476 @@
+[
+	{
+		"SubCodigo" : 1,
+		"Categoria" : 1,
+		"SubNome" : "REMENDOS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 2,
+		"Categoria" : 1,
+		"SubNome" : "CAMPAINHAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 4,
+		"Categoria" : 1,
+		"SubNome" : "RODA LATERAL",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 5,
+		"Categoria" : 1,
+		"SubNome" : "BOMBAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 6,
+		"Categoria" : 1,
+		"SubNome" : "BAGAGEIROS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 7,
+		"Categoria" : 1,
+		"SubNome" : "ESPELHOS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 8,
+		"Categoria" : 1,
+		"SubNome" : "PEDANAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 9,
+		"Categoria" : 1,
+		"SubNome" : "BAR END",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 10,
+		"Categoria" : 1,
+		"SubNome" : "BOLSAS ",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 11,
+		"Categoria" : 1,
+		"SubNome" : "CADEADOS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 13,
+		"Categoria" : 1,
+		"SubNome" : "CAPACETES",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 14,
+		"Categoria" : 1,
+		"SubNome" : "GARRAFAS/SUPORTES",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 15,
+		"Categoria" : 1,
+		"SubNome" : "CESTAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 16,
+		"Categoria" : 1,
+		"SubNome" : "CICLO COMPUTADOR",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 17,
+		"Categoria" : 1,
+		"SubNome" : "SINALIZADORES",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 18,
+		"Categoria" : 1,
+		"SubNome" : "FERRAMENTAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 19,
+		"Categoria" : 1,
+		"SubNome" : "FITAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 20,
+		"Categoria" : 1,
+		"SubNome" : "OUTROS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 21,
+		"Categoria" : 1,
+		"SubNome" : "PARALAMAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 23,
+		"Categoria" : 1,
+		"SubNome" : "PORTA BIKE",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 24,
+		"Categoria" : 1,
+		"SubNome" : "VESTUÁRIO",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 25,
+		"Categoria" : 2,
+		"SubNome" : "BICICLETAS ARO 14",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 26,
+		"Categoria" : 2,
+		"SubNome" : "BICICLETAS ARO 20",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 27,
+		"Categoria" : 2,
+		"SubNome" : "BICICLETAS ARO 24",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 28,
+		"Categoria" : 2,
+		"SubNome" : "BICICLETAS ARO 26",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 29,
+		"Categoria" : 2,
+		"SubNome" : "BICICLETAS ARO 29",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 30,
+		"Categoria" : 2,
+		"SubNome" : "TRICICLOS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 31,
+		"Categoria" : 3,
+		"SubNome" : "ABRAÇADEIRAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 32,
+		"Categoria" : 3,
+		"SubNome" : "ADAPTADORES",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 33,
+		"Categoria" : 3,
+		"SubNome" : "ALAVANCAS DE CÂMBIO",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 34,
+		"Categoria" : 3,
+		"SubNome" : "AROS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 35,
+		"Categoria" : 3,
+		"SubNome" : "CABOS E CONDUITES",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 36,
+		"Categoria" : 1,
+		"SubNome" : "CADEIRINHAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 37,
+		"Categoria" : 3,
+		"SubNome" : "CÂMBIOS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 39,
+		"Categoria" : 3,
+		"SubNome" : "CANOTES",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 40,
+		"Categoria" : 4,
+		"SubNome" : "CARRINHO DE MÃO",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 42,
+		"Categoria" : 3,
+		"SubNome" : "CORRENTES",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 43,
+		"Categoria" : 3,
+		"SubNome" : "CUBOS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 44,
+		"Categoria" : 3,
+		"SubNome" : "CUBO CONTRA PEDAL(TORPEDO)",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 46,
+		"Categoria" : 3,
+		"SubNome" : "ENGRENAGENS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 48,
+		"Categoria" : 3,
+		"SubNome" : "FREIOS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 49,
+		"Categoria" : 3,
+		"SubNome" : "GARFOS/SUSPENSÕES",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 50,
+		"Categoria" : 3,
+		"SubNome" : "GUIDÕES",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 51,
+		"Categoria" : 3,
+		"SubNome" : "MAÇANETA DE FREIO",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 52,
+		"Categoria" : 3,
+		"SubNome" : "MANOPLAS/PUNHOS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 53,
+		"Categoria" : 3,
+		"SubNome" : "MOV. CENTRAL/DIREÇÃO",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 54,
+		"Categoria" : 3,
+		"SubNome" : "PEDAIS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 55,
+		"Categoria" : 3,
+		"SubNome" : "PEDIVELAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 56,
+		"Categoria" : 4,
+		"SubNome" : "PNEU 20",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 57,
+		"Categoria" : 4,
+		"SubNome" : "PNEU 26",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 58,
+		"Categoria" : 4,
+		"SubNome" : "PNEU 24",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 59,
+		"Categoria" : 4,
+		"SubNome" : "PNEU 27",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 60,
+		"Categoria" : 4,
+		"SubNome" : "PNEU 28",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 61,
+		"Categoria" : 4,
+		"SubNome" : "PNEU 29",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 62,
+		"Categoria" : 4,
+		"SubNome" : "PNEU 700",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 63,
+		"Categoria" : 3,
+		"SubNome" : "QUADROS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 64,
+		"Categoria" : 3,
+		"SubNome" : "RAIO FINO",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 65,
+		"Categoria" : 3,
+		"SubNome" : "RAIO GROSSO",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 66,
+		"Categoria" : 3,
+		"SubNome" : "RODA LIVRE/PINHÃO DENTADO",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 67,
+		"Categoria" : 3,
+		"SubNome" : "RODAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 68,
+		"Categoria" : 3,
+		"SubNome" : "SELINS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 69,
+		"Categoria" : 3,
+		"SubNome" : "SUPORTE DE GUIDÃO",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 70,
+		"Categoria" : 3,
+		"SubNome" : "OUTROS PEÇAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 71,
+		"Categoria" : 1,
+		"SubNome" : "CAPA DE SELINS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 72,
+		"Categoria" : 3,
+		"SubNome" : "CONJUNTO DE CÂMBIO",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 82,
+		"Categoria" : 3,
+		"SubNome" : "COMPONENTES DE PARALAMAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 83,
+		"Categoria" : 4,
+		"SubNome" : "CÂMARAS DE BICICLETA",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 85,
+		"Categoria" : 1,
+		"SubNome" : "DESCANSO",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 86,
+		"Categoria" : 4,
+		"SubNome" : "PNEU 16",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 90,
+		"Categoria" : 2,
+		"SubNome" : "BICICLETAS ARO 27",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 93,
+		"Categoria" : 1,
+		"SubNome" : "CÂMERAS DIGITAIS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 94,
+		"Categoria" : 2,
+		"SubNome" : "BICICLETAS ARO 16",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 95,
+		"Categoria" : 1,
+		"SubNome" : "LUBRIFICANTES",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 106,
+		"Categoria" : 1,
+		"SubNome" : "SAPATILHAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 107,
+		"Categoria" : 1,
+		"SubNome" : "LUVAS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 108,
+		"Categoria" : 1,
+		"SubNome" : "ÓCULOS",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 109,
+		"Categoria" : 1,
+		"SubNome" : "CAMISETA",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 110,
+		"Categoria" : 2,
+		"SubNome" : "BICICLETAS SPEED",
+		"AtivoSN" : "S"
+	},
+	{
+		"SubCodigo" : 111,
+		"Categoria" : 4,
+		"SubNome" : "PNEU 14",
+		"AtivoSN" : "S"
+	}
+]

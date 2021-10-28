@@ -1,0 +1,145 @@
+.catalog-product-view {
+    .product-info-main {
+        .prev-next-products {
+            .product-prev {
+                .porto-icon-left-open {
+                    &::before {
+                        margin-top: 4px;
+                    }
+                }
+            }
+            .product-next {
+                .porto-icon-right-open {
+                    &::before {
+                        margin-top: 4px;
+                    }
+                }
+            }
+        }
+
+        .box-tocart {
+            .action.tocart {
+                border-radius: 0;
+                color: #333;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                transition: 0.3s;
+
+                &:hover {
+                    color: #fff;
+                    background-color: @lightBlue;
+                    border-color: @lightBlue;
+                }
+
+                @media @xmobile {
+                    padding: 0 10px;
+                }
+            }
+        }
+
+        .moved-add-to-links {
+            .product-addto-links {
+                .tocompare {
+                    @media @xmobile {
+                        display: none;
+                    }
+                }
+
+                .towishlist {
+                    @media @xmobile {
+                        height: 45px;
+                    }
+                }
+            }
+        }
+
+        .product.attribute.overview {
+            .value {
+                font-weight: 300;
+                font-size: 13px;
+            }
+        }
+
+        .product-info-stock-sku {
+            .stock.available {
+                .label {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    #description {
+        padding: 0 20px;
+    }
+
+    .owl-carousel {
+        .owl-nav {
+            .owl-next,
+            .owl-prev {
+                background: none;
+
+                &:hover {
+                    background: none;
+                }
+
+                &:before {
+                    width: 30px;
+                    color: #333;
+                    font-size: 24px;
+                }
+            }
+            .owl-next {
+                right: -2rem;
+            }
+
+            .owl-prev {
+                left: -2rem;
+            }
+        }
+    }
+
+    .block.related {
+        .section-title {
+            margin-bottom: 10px;
+        }
+
+        .block-actions {
+            display: flex;
+            align-items: center;
+            color: #777;
+            font-size: 14px;
+
+            button {
+                padding-left: 5px;
+                font-size: 14px;
+                color: #47b2e5;
+            }
+        }
+
+        .field.choice {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0;
+            color: #333;
+            background-color: #fff;
+            line-height: 34px;
+            font-size: 0.75rem;
+            height: 36px;
+            font-weight: 600;
+            text-transform: uppercase;
+
+            input[type="checkbox"] {
+                margin: 0;
+                top: -1px;
+            }
+
+            label {
+                display: block;
+                padding-left: 10px;
+            }
+        }
+    }
+}

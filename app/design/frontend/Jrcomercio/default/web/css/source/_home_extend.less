@@ -1,0 +1,246 @@
+#maincontent {
+    .home-banners {
+        .slick-arrow {
+            background: none;
+
+            &.slick-prev,
+            &.slick-next {
+                &:before,
+                &:after {
+                    font-size: 25px;
+                    color: @lightBlue;
+                }
+            }
+
+            &.slick-next {
+                @media @xmobile {
+                    right: 0rem;
+                }
+            }
+
+            &.slick-prev {
+                @media @xmobile {
+                    left: 0rem;
+                }
+            }
+        }
+        .slick-dots {
+            position: absolute;
+            bottom: 0;
+
+            li.slick-active {
+                button {
+                    background: @lightBlue;
+                    border-color: @lightBlue;
+                }
+            }
+        }
+    }
+
+    .slick-slide {
+        .product-item {
+            padding: 0 7px;
+        }
+    }
+
+    .block-static-block {
+        .categories-carrossel {
+            .pagebuilder-column-group {
+                figure {
+                    img {
+                        margin: 0 auto;
+                    }
+                }
+
+                p {
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    text-align: center;
+                    margin: 15px 0 0;
+                }
+            }
+
+            .slick-arrow {
+                width: 30px;
+                background: none;
+
+                &::before {
+                    width: 30px;
+                    color: #333;
+                    font-size: 24px;
+                }
+
+                &.slick-next {
+                    right: -2rem;
+
+                    @media @xmobile {
+                        right: 0rem;
+                    }
+                }
+
+                &.slick-prev {
+                    left: -2rem;
+
+                    @media @xmobile {
+                        left: 0rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .home-appeals {
+        .pagebuilder-column-group {
+            display: block !important;
+
+            .slick-slide {
+                &:last-child {
+                    .appeal-item {
+                        border: none;
+                    }
+                }
+            }
+
+            .appeal-item {
+                display: flex !important;
+                flex-flow: row nowrap;
+                justify-content: center;
+                width: 100%;
+                padding: 1rem 0;
+                margin: 0;
+                border-right: 1px solid #e7e7e7;
+
+                @media @d-860 {
+                    border: none;
+                }
+
+                figure {
+                    img {
+                        max-height: 35px;
+                        width: auto;
+                    }
+                }
+
+                ul {
+                    list-style: none;
+                    text-align: left;
+
+                    li {
+                        line-height: initial;
+                        font-size: 13px;
+
+                        strong {
+                            color: #222529;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .list-products {
+        .titulo {
+            font-size: 1.425rem;
+            letter-spacing: -0.02em;
+            line-height: 1.45;
+            position: relative;
+
+            &:after {
+                content: "";
+                height: 1px;
+                width: calc(~"100% - 25px");
+                background: rgba(0, 0, 0, 0.08);
+                position: absolute;
+                bottom: 0;
+                left: 25px;
+            }
+        }
+
+        .highlight-image {
+            @media @d-860 {
+                display: none;
+            }
+        }
+    }
+
+    .banners-mosaic {
+        .titulo {
+            font-size: 1.425rem;
+            letter-spacing: -0.02em;
+            line-height: 1.45;
+            position: relative;
+
+            &:after {
+                content: "";
+                height: 1px;
+                width: calc(~"100% - 25px");
+                background: rgba(0, 0, 0, 0.08);
+                position: absolute;
+                bottom: 0;
+                left: 25px;
+            }
+        }
+
+        figure {
+            img {
+                border-radius: 5px;
+            }
+        }
+
+        .pagebuilder-column-group {
+            .pagebuilder-column {
+                // @media @mobile {
+                //     margin: 0 10px;
+                // }
+            }
+        }
+    }
+
+    .banner-institutional {
+        .text {
+            p {
+                margin-bottom: 5px;
+                color: #ffffff;
+            }
+
+            a {
+                display: flex;
+                background: #fff;
+                color: #111111;
+                width: 100%;
+                max-width: 425px;
+                font-size: 16px;
+                justify-content: center;
+                margin-top: 25px;
+                padding: 20px;
+                border-radius: 8px;
+                border: 0;
+                cursor: pointer;
+                transition: 0.4s;
+
+                &:hover {
+                    background: #47b2e5;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .promotion-banner {
+        @media @d-640 {
+            display: none;
+        }
+    }
+}
+
+#html-body {
+    #maincontent {
+        .promotion-banner {
+            @media @d-640 {
+                display: none;
+            }
+        }
+    }
+}

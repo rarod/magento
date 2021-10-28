@@ -1,0 +1,18 @@
+[
+	{
+		"Codigo" : 1,
+		"Nome" : "ACESSÓRIOS"
+	},
+	{
+		"Codigo" : 2,
+		"Nome" : "BICICLETAS"
+	},
+	{
+		"Codigo" : 3,
+		"Nome" : "PEÇAS"
+	},
+	{
+		"Codigo" : 4,
+		"Nome" : "PNEUS/CÂMARAS"
+	}
+]

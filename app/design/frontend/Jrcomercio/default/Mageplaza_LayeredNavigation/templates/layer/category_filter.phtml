@@ -1,0 +1,40 @@
+<?php
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$category = $objectManager->get('Magento\Framework\Registry')->registry('current_category'); //Get Current Category
+?>
+<?php if($category): ?>
+<?php 
+$subcats = $category->getChildrenCategories();
+$_helper = $this->helper('Magento\Catalog\Helper\Output');
+    if(count($subcats)>0){
+?>
+<div class="block-category-list" data-role="collapsible" data-mage-init='{"collapsible":{"openedState": "active", "collapsible": true, "active": false, "collateral": { "openedState": "filter-active", "element": "body" } }}'>
+    <div class="block-title filter-options-title" data-role="title">
+        <strong><?= __('Categories') ?></strong>
+        <span class="toggle"></span>
+    </div>
+    <div class="block-content" data-role="content">
+        <ol class="items">
+        <?php
+        foreach($subcats as $subcat){ 
+        ?>
+            <li class="item">
+                <a href="<?php echo $subcat->getUrl() ?>"><?php echo $subcat->getName() ?></a>
+            </li>
+        <?php
+            }
+        ?>
+        </ol>
+    </div>
+    <script type="text/javascript">
+    require([
+        'jquery'
+    ], function ($) {
+        $("#layered-filter-block").before($(".block.block-category-list"));
+    });
+    </script>
+</div>
+<?php
+    }
+?>
+<?php endif; ?>

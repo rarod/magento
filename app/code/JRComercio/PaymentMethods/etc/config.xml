@@ -1,0 +1,506 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <payment_23>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment23</model>
+                <order_status>pending</order_status>
+                <title>BL 30/60 DD</title>
+                <min_order_total>600</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_23>
+
+            <payment_24>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment24</model>
+                <order_status>pending</order_status>
+                <title>BL 30 DD</title>
+                <min_order_total>300</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_24>
+
+            <payment_27>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment27</model>
+                <order_status>pending</order_status>
+                <title>BL 30/60/90 DD</title>
+                <min_order_total>1500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_27>
+
+            <payment_30>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment30</model>
+                <order_status>pending</order_status>
+                <title>BL 21 DD</title>
+                <min_order_total>1500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_30>
+
+            <payment_31>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment31</model>
+                <order_status>pending</order_status>
+                <title>BL 14 DD</title>
+                <min_order_total>1500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_31>
+
+            <payment_35>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment35</model>
+                <order_status>pending</order_status>
+                <title>BL 20/40 DD</title>
+                <min_order_total>1000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_35>
+
+            <payment_39>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment39</model>
+                <order_status>pending</order_status>
+                <title>BL 14/28 DD</title>
+                <min_order_total>1500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_39>
+
+            <payment_50>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment50</model>
+                <order_status>pending</order_status>
+                <title>BL 20/40/60 DD</title>
+                <min_order_total>600</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_50>
+
+            <payment_58>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment58</model>
+                <order_status>pending</order_status>
+                <title>BL 30/60/90/120 DD</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_58>
+
+            <payment_93>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment93</model>
+                <order_status>pending</order_status>
+                <title>ANTECIPADO</title>
+                <min_order_total>300</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_93>
+
+            <payment_111>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment111</model>
+                <order_status>pending</order_status>
+                <title>BL 07 DD</title>
+                <min_order_total>300</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_111>
+
+            <payment_133>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment133</model>
+                <order_status>pending</order_status>
+                <title>BL 10 DD</title>
+                <min_order_total>300</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_133>
+
+            <payment_150>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment150</model>
+                <order_status>pending</order_status>
+                <title>BL 07/14/21 DD</title>
+                <min_order_total>300</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_150>
+
+            <payment_247>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment247</model>
+                <order_status>pending</order_status>
+                <title>BL 07/14 DD</title>
+                <min_order_total>300</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_247>
+
+            <payment_299>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment299</model>
+                <order_status>pending</order_status>
+                <title>BL 10/20/30/40/50/60 DD</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_299>
+
+            <payment_311>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment311</model>
+                <order_status>pending</order_status>
+                <title>BL 30/45/6/75/9/105/12 DD</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_311>
+
+            <payment_320>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment320</model>
+                <order_status>pending</order_status>
+                <title>CARTAO CRED 1X</title>
+                <min_order_total>300</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_320>
+
+            <payment_321>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment321</model>
+                <order_status>pending</order_status>
+                <title>CARTAO CRED 2X</title>
+                <min_order_total>300</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_321>
+
+            <payment_322>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment322</model>
+                <order_status>pending</order_status>
+                <title>CARTAO CRED 3X</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_322>
+
+            <payment_323>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment323</model>
+                <order_status>pending</order_status>
+                <title>CARTAO CRED 4X</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_323>
+
+            <payment_324>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment324</model>
+                <order_status>pending</order_status>
+                <title>CARTAO CRED 5X</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_324>
+
+            <payment_325>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment325</model>
+                <order_status>pending</order_status>
+                <title>CARTAO CRED 6X</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_325>
+
+            <payment_349>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment349</model>
+                <order_status>pending</order_status>
+                <title>ANTECIPADO/ CARTÃO 2X</title>
+                <min_order_total>0</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_349>
+
+            <payment_373>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment373</model>
+                <order_status>pending</order_status>
+                <title>BL 10/20/30/40</title>
+                <min_order_total>1000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_373>
+
+            <payment_374>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment374</model>
+                <order_status>pending</order_status>
+                <title>BL 7/14/21/28/35</title>
+                <min_order_total>1000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_374>
+
+            <payment_382>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment382</model>
+                <order_status>pending</order_status>
+                <title>BL 14/21 DD</title>
+                <min_order_total>1500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_382>
+
+            <payment_390>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment390</model>
+                <order_status>pending</order_status>
+                <title>BL 15/30/45</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_390>
+
+            <payment_415>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment415</model>
+                <order_status>pending</order_status>
+                <title>ANTECIPADO 20/40/60</title>
+                <min_order_total>600</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_415>
+
+            <payment_427>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment427</model>
+                <order_status>pending</order_status>
+                <title>BL 07/30/60</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_427>
+
+            <payment_433>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment433</model>
+                <order_status>pending</order_status>
+                <title>CARTAO 3X BL 30/60</title>
+                <min_order_total>1500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_433>
+
+            <payment_444>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment444</model>
+                <order_status>pending</order_status>
+                <title>BL 7/21DD</title>
+                <min_order_total>500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_444>
+
+            <payment_447>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment447</model>
+                <order_status>pending</order_status>
+                <title>BL 15/30</title>
+                <min_order_total>500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_447>
+
+            <payment_451>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment451</model>
+                <order_status>pending</order_status>
+                <title>BL 7/30/60</title>
+                <min_order_total>600</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_451>
+
+            <payment_453>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment453</model>
+                <order_status>pending</order_status>
+                <title>BL 15/30/45/60 DD</title>
+                <min_order_total>600</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_453>
+
+            <payment_475>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment475</model>
+                <order_status>pending</order_status>
+                <title>BL 02 DD</title>
+                <min_order_total>300</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_475>
+
+            <payment_476>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment476</model>
+                <order_status>pending</order_status>
+                <title>BL 07/14/21/28 DD</title>
+                <min_order_total>1000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_476>
+
+            <payment_479>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment479</model>
+                <order_status>pending</order_status>
+                <title>CARTAO 3X BL 07</title>
+                <min_order_total>1500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_479>
+
+            <payment_480>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment480</model>
+                <order_status>pending</order_status>
+                <title>ACRESCIMO</title>
+                <min_order_total>0</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_480>
+
+            <payment_487>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment487</model>
+                <order_status>pending</order_status>
+                <title>BL 05/07 DD</title>
+                <min_order_total>500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_487>
+
+            <payment_488>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment488</model>
+                <order_status>pending</order_status>
+                <title>CARTÃO 3X + BL30</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_488>
+
+            <payment_507>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment507</model>
+                <order_status>pending</order_status>
+                <title>BL 07 + CARTÃO 4X</title>
+                <min_order_total>2500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_507>
+
+            <payment_512>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment512</model>
+                <order_status>pending</order_status>
+                <title>ANTECIPADO + BL 20/40</title>
+                <min_order_total>1500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_512>
+
+            <payment_529>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment529</model>
+                <order_status>pending</order_status>
+                <title>CARTÃO 2X BL 30</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_529>
+
+            <payment_535>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment535</model>
+                <order_status>pending</order_status>
+                <title>BL 30/40/50/60</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_535>
+
+            <payment_537>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment537</model>
+                <order_status>pending</order_status>
+                <title>BL 20/30/40/50/60 DD</title>
+                <min_order_total>2500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_537>
+
+            <payment_538>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment538</model>
+                <order_status>pending</order_status>
+                <title>ANTEC. 20/30/40/50/60</title>
+                <min_order_total>1500</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_538>
+
+            <payment_539>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment539</model>
+                <order_status>pending</order_status>
+                <title>ANTEC.30/45/6/75/9/105/12</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_539>
+
+            <payment_540>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment540</model>
+                <order_status>pending</order_status>
+                <title>BL 20/45/60/75/90 DD</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_540>
+
+            <payment_541>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment541</model>
+                <order_status>pending</order_status>
+                <title>CARTAO 2X BL 07</title>
+                <min_order_total>2000</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_541>
+
+            <payment_542>
+                <active>1</active>
+                <model>JRComercio\PaymentMethods\Model\Payment\Method\Payment542</model>
+                <order_status>pending</order_status>
+                <title>BL 20/3</title>
+                <min_order_total>0</min_order_total>
+                <allowspecific>0</allowspecific>
+                <group>JRComercio</group>
+            </payment_542>
+        </payment>
+    </default>
+</config>
