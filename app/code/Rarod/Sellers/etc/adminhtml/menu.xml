@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
-    <menu>
-        <add id="Rarod_Sellers::sellers" title="Vendedores" module="Rarod_Sellers" sortOrder="100" resource="Rarod_Sellers::sellers" />
-        <add id="Rarod_Sellers::sellers_index" title="Vendedores" module="Rarod_Sellers" sortOrder="100" action="rarod_sellers/seller/index" resource="Rarod_Sellers::sellers_index" parent="Rarod_Sellers::sellers" />
-        <add id="Rarod_Sellers::sellers_stock" title="Estoques" module="Rarod_Sellers" sortOrder="100" action="rarod_sellers/seller/stock" resource="Rarod_Sellers::sellers_stock" parent="Rarod_Sellers::sellers" />
-    </menu>
-</config>
